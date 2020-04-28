@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/saldoNaslov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/saldo_with_colon"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:textSize="27sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/saldoValue"
+        android:textSize="27sp"
+        android:padding="15dp"
+        android:layout_below="@id/saldoNaslov"
+        android:gravity="center"/>
+</RelativeLayout>

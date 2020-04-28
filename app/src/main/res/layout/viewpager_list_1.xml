@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/troskovi_saldo_kategorija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/izlazni_racuni_saldo_resource"
+        android:gravity="center"
+        android:background="@drawable/border_bottom"
+        android:textSize="16sp"/>
+    <LinearLayout
+        android:id="@+id/linearContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/troskovi_saldo_kategorija"
+        >
+
+        <TextView
+            android:id="@+id/recylerDatum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:text="@string/datum_resource"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/recylerKupac"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="2"
+            android:padding="10dp"
+            android:text="@string/kupac_resource"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/recylerCijena"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_weight="2"
+            android:text="@string/iznos_resource"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/linearContainer"
+        android:background="@color/svijetloSiva"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/line"
+        android:id="@+id/recyclerView"
+        />
+
+</RelativeLayout>

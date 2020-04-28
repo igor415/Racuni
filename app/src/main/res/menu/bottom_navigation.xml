@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/saldo"
+        android:icon="@drawable/ic_ukupno"
+        android:title="@string/saldo_resource"/>
+    <item
+        android:id="@+id/izlazni_racuni"
+        android:icon="@drawable/ic_izlazni_racuni"
+        android:title="@string/izlazni_ra_uni_resource"/>
+    <item
+        android:id="@+id/troskovi"
+        android:icon="@drawable/ic_troskovi"
+        android:title="@string/tro_kovi_resource"/>
+</menu>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Racuni</string>
+    <string name="saldo_resource">Saldo</string>
+    <string name="izlazni_ra_uni_resource">Izlazni računi</string>
+    <string name="tro_kovi_resource">Troškovi</string>
+    <string name="datum_resource">Datum</string>
+    <string name="kupac_resource">Kupac</string>
+    <string name="iznos_resource">Iznos(kn)</string>
+    <string name="dodaj_izlazni_ra_un_resource">Dodaj izlazni račun</string>
+    <string name="unesite_datum_resource">Unesite datum:</string>
+    <string name="unesite_iznos_resource">Unesite iznos:</string>
+    <string name="unesite_kupca_resource">Unesite kupca:</string>
+    <string name="spremi_promjene_resource">Spremi promjene</string>
+    <string name="saldo_with_colon">Saldo:</string>
+    <string name="saldo_nedostupan_resource">Saldo u ovom trenutku nije dostupan.</string>
+    <string name="pitanje_obrisi_racun">Jeste li sigurni da želite obrisati ovaj račun?</string>
+    <string name="uspjesno_unijeli_racun">Uspješno ste unijeli račun.</string>
+    <string name="greska_brisanje_racuna_resource">Dogodila se greška pri brisanju računa.</string>
+    <string name="racun_obrisan_resource">Račun uspješno obrisan.</string>
+    <string name="da_resource">Da</string>
+    <string name="ne_resource">Ne</string>
+    <string name="unesite_ispravan_iznos_resource">Unesite ispravan iznos računa!</string>
+    <string name="unesite_sve_vrijednosti_resource">Molimo vas, unesite sve vrijednosti!</string>
+    <string name="title_activity_troskovi">TroskoviActivity</string>
+    <string name="saldo_title">Saldo</string>
+    <string name="izlazni_racuni_title">Izlazni računi</string>
+    <string name="godina_resource">Godina:</string>
+    <string name="izlazni_racuni_saldo_resource">Ukupno (izlazni računi): %1$s</string>
+    <string name="troskovi_saldo">Ukupno (troškovi): %1$s</string>
+    <string name="otvori_listove_resource">Otvori listove</string>
+    <string name="troskovi_title">Troškovi</string>
+    <string-array name="kategorije">
+        <item>Begamont</item>
+        <item>Beton</item>
+        <item>Armatura</item>
+        <item>Drvopokuplje</item>
+        <item>Golubić</item>
+        <item>Ero</item>
+        <item>Pevec</item>
+        <item>Profil</item>
+        <item>Gorivo</item>
+        <item>Štil</item>
+        <item>Unikomerc</item>
+        <item>Ostalo</item>
+    </string-array>
+
+</resources>
